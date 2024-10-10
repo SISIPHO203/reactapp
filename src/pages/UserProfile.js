@@ -5,7 +5,7 @@ function UserProfile() {
     const [user, setUser] = useState({
         name: 'Sisipho',
         email: 'mavangosisipho@gmail.com',
-        movie: 'romania.',
+        movie: 'Inteseller.',
     });
 
     const [isEditing, setIsEditing] = useState(false);
