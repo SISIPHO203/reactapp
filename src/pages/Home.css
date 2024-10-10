@@ -1,0 +1,33 @@
+/* Home.css */
+.home {
+    padding: 2rem;
+    background-color: #ff634744;;
+    text-align: center;
+}
+
+.home-header {
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+     
+    background:#ff634744; ;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family:'Times New Roman', Times, serif
+}
+
+.home-image {
+    margin-top: 2rem;
+}
+
+.home-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}

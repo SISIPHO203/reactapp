@@ -1,0 +1,27 @@
+
+.about {
+    padding: 2rem;
+    background-color:  #ff634744;
+    text-align: center; 
+}
+
+.about-header {
+    margin-bottom: 2rem; 
+}
+
+.about-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background:    #ff634744;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 1.5rem; 
+}
+
+ol {
+    list-style-type:disc; 
+   align-items: end;
+}

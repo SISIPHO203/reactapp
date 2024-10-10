@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 1rem; /* Space around the content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center items */
+}
+
+nav li {
+    margin: 0 1.5rem; /* Space between links */
+}
+
+nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Font size */
+    padding: 0.5rem 1rem; /* Space around text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+nav a:hover {
+    background-color: #ff6347; /* Change background on hover */
+    color: white; /* Keep text color white on hover */
+}
+
+.active-link {
+    background-color: #ff6347; /* Active link background */
+    color: white; /* Active link text color */
+}
